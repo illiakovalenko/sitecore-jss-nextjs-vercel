@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import NotFound from 'components/NotFound';
 import Layout from 'components/Layout';
-import config from 'temp/config';
+// import config from 'temp/config';
 import {
   SitecoreContext,
   ComponentPropsContext,
@@ -12,7 +12,7 @@ import { StyleguideSitecoreContextValue } from 'lib/component-props';
 import { SitecorePageProps } from 'lib/page-props';
 import { sitecorePagePropsFactory } from 'lib/page-props-factory';
 import { componentFactory } from 'temp/componentFactory';
-import { graphQLSitemapService } from 'lib/graphql-sitemap-service';
+// import { graphQLSitemapService } from 'lib/graphql-sitemap-service';
 
 const SitecorePage = ({ notFound, layoutData, componentProps }: SitecorePageProps): JSX.Element => {
   useEffect(() => {
